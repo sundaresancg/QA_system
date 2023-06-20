@@ -11,7 +11,6 @@ payload = {
     "context": context
 }
 
-
 response = requests.post(url, json=payload)
 
 result = response.json()
